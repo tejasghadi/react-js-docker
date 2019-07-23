@@ -9,4 +9,4 @@ install:
   - bundle install
 
 script:
-  - docker run -e CI=true docker-react npm run test -- --coverage
+  - docker run docker-react npm run test -- --coverage
