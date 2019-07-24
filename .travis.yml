@@ -3,7 +3,6 @@ services:
   - docker
 
 install:
-  - gem update --system
   - bundle install
 
 before_install:
