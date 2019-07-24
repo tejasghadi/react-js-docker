@@ -2,8 +2,8 @@ sudo: required
 services:
   - docker
 
-install:
-  - bundle install
+#install:
+#  - bundle install
 
 before_install:
   - docker build -t docker-react -f Dockerfile.dev .
