@@ -12,6 +12,7 @@ function App() {
           Hi there
           Bye there
           I was changed
+          Featured
         </p>
         <a
           className="App-link"
